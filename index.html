@@ -14,7 +14,9 @@
 <body>
     <!-- Header section starts  -->
     <header>
-        <a href="" class="logo"><span>t</span>ravel</a>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="" class="logo"><i class="fas fa-plane"></i><span>t</span>ravel</a>
         <nav class="navbar">
             <a href="#">home</a>
             <a href="#">book</a>
@@ -33,8 +35,22 @@
             <label for="search-bar"><i class="fas fa-search"></i></label>
         </form>
     </header>
-    <!-- Header section ends  -->
+    <!-- login form container  -->
 
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+        </form>
+    </div>
+    <!-- Header section ends  -->
 
     <!-- custom JS link  -->
     <script src="src/script.js"></script>
