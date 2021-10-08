@@ -513,7 +513,10 @@ header .search-bar-container label:hover{
     width: 100%;
 }
 
-
+/* style brand section  */
+.brand{
+    text-align: center;
+}
 
 
 
