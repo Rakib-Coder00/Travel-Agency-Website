@@ -79,17 +79,18 @@ header{
     /* color: var(--white); */
     padding: 2rem 9%;
 }
-header .logo{
+.logo{
     font-size: 2.5rem;
     font-weight: bolder;
     color: var(--white);
     text-transform: uppercase;
+    text-decoration: none;
 }
-header .logo .fa-hiking{
+.logo .fa-hiking{
     color: var(--orange);
     /* transform: rotate(-45deg); */
 }
-header .logo span{
+.logo span{
     color: var(--orange);
 }
 header .navbar a{
@@ -524,7 +525,7 @@ header .search-bar-container label:hover{
 .footer .box-container{
     display: flex;
     flex-wrap: wrap;
-    grid-template: 1.5rem;
+    gap: 1.5rem;
 }
 .footer .box-container .box{
     padding: 1rem 0;
@@ -542,10 +543,13 @@ header .search-bar-container label:hover{
 }
 .footer .box-container .box a{
     display: block;
-    font-size: 1.5rem;
-    padding: 0.7rem 0;
+    font-size: 1.7rem;
+    padding: 0.7rem 0.4rem;
     color: #eee;
 }
+/* .footer .box-container .box a i{
+    font-size: 2.5rem;
+} */
 .footer .box-container .box a:hover{
     color: var(--orange);
     text-decoration: underline;
